@@ -1,27 +1,42 @@
-# XRInteractionToolkitTemplate
+# VRProject2122-joma
 
-### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+### /Project-description
+An invisible Killer is sent to hunt you, he is blind & he can only hear you, and you make noise if you  
+move. You can only hear him walking.
 
-### Development platform: 
-OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
+### /Gameplay
+You must complete these 4 steps to escape the Maze:   
+1. attract the killer by rattling the gate at the exit and steal the key   
+2. unlock the wooden door with the key   
+3. restore power to open the gate   
+4. escape through the gate which automatically closes afte rwards   
 
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
+### /MVP
+-Killer which hunts down the Player (Animation Event with Trigger)   
+-Hidden Key to unlock the door   
+-Powerswitch to open the Gate   
+-SFX (7) :   
+  .Gate Rattle   
+  .Killer Noise   
+  .Player Noise   
+  .Key Collect   
+  .Door Unlock   
+  .Power Switch   
+  .Gate Open
 
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
+### Optional:   
+-Killer which hunts down the Player (AI   Killer   with Navmesh)   
+-Weather Particle FX (Snowing)   
+-Hunting Soundtrack   
+-Start & Ending  Screen
 
-### Target platform: 
-Oculus Rift/S; Quest/2
+### /Project-Phases
+Alpha Phase – Gameplay Setup          /until 25.11.21
+Beta 1 Phase – Killer Implementation  /until 16.12.21
+Beta 2 Phase – SFX & Optionals        /until 13.01.22
 
-### Visuals: 
-Screenshots (concept and experience), Video
+### /Development-platforms: 
+Windows 10, Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
 
-### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
-
-### Limitations/Problems: 
-
-Copyright by smeerws :)
+### /Target-platform: 
+Quest/2
