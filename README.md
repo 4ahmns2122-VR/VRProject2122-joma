@@ -24,7 +24,7 @@ You must complete these 4 steps to escape the Maze:
   .Power Switch   
   .Gate Open
 
-### Optional:   
+### /Optional   
 -Killer which hunts down the Player (AI   Killer   with Navmesh)   
 -Weather Particle FX (Snowing)   
 -Hunting Soundtrack   
