@@ -502,7 +502,10 @@ VisualEffect:
     m_Gradient:
       m_Array: []
     m_NamedObject:
-      m_Array: []
+      m_Array:
+      - m_Value: {fileID: 2800000, guid: 74ebf73ff22a63b429f498d94f54f2b5, type: 3}
+        m_Name: New Texture2DArray
+        m_Overridden: 1
     m_Bool:
       m_Array: []
 --- !u!4 &214916666
