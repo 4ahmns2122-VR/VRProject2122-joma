@@ -10,6 +10,7 @@ public class Killer : MonoBehaviour {
     public Vector2 areaXMinMax, areaZMinMax;
     public float destinationThreshold = 2f;
     public float checkTime = 4f;
+    public GameObject deathScreen;
 
     NavMeshAgent agent;
     bool isHunting = false;
@@ -20,6 +21,7 @@ public class Killer : MonoBehaviour {
         agent = GetComponent<NavMeshAgent>();
         //Initialize Movement
         agent.SetDestination(RandomDestination());
+        deathScreen.SetActive(false);
     }
     private void Update()
     {
@@ -31,11 +33,10 @@ public class Killer : MonoBehaviour {
         if (agent.remainingDistance <= destinationThreshold && !isHunting)
         {
             agent.SetDestination(RandomDestination());
-            print("direction changed");
         }
         else if(agent.remainingDistance <= destinationThreshold && isHunting)
         {
-            Check();
+            Kill();
         }
     }
     void Hunting(Vector3 soundPos)
@@ -46,14 +47,11 @@ public class Killer : MonoBehaviour {
             isHunting = true;
         }
     }
-    void Check()
-    {
-        agent.isStopped = true;
-
-    }
     void Kill()
     {
-
+        agent.isStopped = true;
+        deathScreen.SetActive(true);
+        //disable player teleportation
     }
     Vector3 RandomDestination()
     {

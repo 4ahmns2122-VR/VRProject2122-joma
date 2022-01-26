@@ -5,9 +5,18 @@ using System;
 
 public class Box : MonoBehaviour
 {
+    public Animation doorAnim;
     public event Action onSwitched;
 
-    void OpenDoor()
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Key")
+        {
+            doorAnim.Play();
+        }
+    }
+
+    void OpenGate()
     {
         onSwitched();
     }
