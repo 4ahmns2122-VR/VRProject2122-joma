@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
+    public AudioSource gateSound;
     Box box;
 
     private void Start()
@@ -15,5 +16,6 @@ public class Gate : MonoBehaviour
     void Open()
     {
         transform.rotation = Quaternion.Euler(transform.rotation.x, transform.rotation.y - 50f, transform.rotation.x);
+        gateSound.Play();
     }
 }

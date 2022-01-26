@@ -6,6 +6,7 @@ using System;
 public class Box : MonoBehaviour
 {
     public Animation doorAnim;
+    public AudioSource doorSound;
     public event Action onSwitched;
 
     private void OnTriggerEnter(Collider other)
@@ -13,6 +14,7 @@ public class Box : MonoBehaviour
         if (other.tag == "Key")
         {
             doorAnim.Play();
+            doorSound.Play();
         }
     }
 
