@@ -39,7 +39,7 @@ public class Killer : MonoBehaviour {
             Kill();
         }
     }
-    void Hunting(Vector3 soundPos)
+    public void Hunting(Vector3 soundPos)
     {
         if (Vector3.Distance(soundPos, transform.position) <= hearingRange)
         {

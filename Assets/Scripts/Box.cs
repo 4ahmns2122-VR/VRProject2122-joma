@@ -9,12 +9,20 @@ public class Box : MonoBehaviour
     public AudioSource doorSound;
     public event Action onSwitched;
 
+    Killer kllr;
+
+    private void Start()
+    {
+        kllr = FindObjectOfType<Killer>();
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Key")
         {
             doorAnim.Play();
             doorSound.Play();
+            kllr.Hunting(gameObject.transform.position);
         }
     }
 
