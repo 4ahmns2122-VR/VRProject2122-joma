@@ -31,6 +31,11 @@ Killer Implementation
 -until 13.01.22
 SFX & Optionals
 
+-Killer which hunts down the Player (Animation Event with Trigger)   
+-Hidden Key to unlock the Powerbox   
+-Powerbox to open the Gate
+-SFX (4): Killer Noise, Key Collect, Door Unlock, Gate Open
+
 ### /Developement Issues
 -SnowFX doesn't render when out of current frame -> gpu bound
 
