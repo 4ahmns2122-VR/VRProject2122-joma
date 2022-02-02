@@ -23,7 +23,7 @@ You must complete these 4 steps to escape the Maze:
 -Hunting Soundtrack   
 -Start & Ending Screen
 
-### /Project-Phases
+### /Project Phases
 -until 25.11.21
 Gameplay Setup 
 -until 16.12.21
