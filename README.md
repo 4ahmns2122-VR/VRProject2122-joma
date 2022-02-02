@@ -2,7 +2,6 @@
 
 ![test1](https://user-images.githubusercontent.com/73108961/152233064-b6b54b0f-52f7-449d-97c7-e1ac6884931a.PNG)
 ![test2](https://user-images.githubusercontent.com/73108961/152233137-aef7eaf4-c739-489c-ba54-d716f3bcca81.PNG)
-![test3](https://user-images.githubusercontent.com/73108961/152233193-a6488574-af90-429b-87c7-dc633bd2f838.PNG)
 
 ### /Project-description
 A Ghost who can only hear but not see is hunting you.
