@@ -25,7 +25,9 @@ You must complete these 4 steps to escape the Maze:
 
 ### /Project-Phases
 -Alpha Phase – Gameplay Setup          /until 25.11.21
+
 -Beta 1 Phase – Killer Implementation  /until 16.12.21
+
 -Beta 2 Phase – SFX & Optionals        /until 13.01.22
 
 ### /Developement Issues
