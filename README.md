@@ -15,11 +15,7 @@ You must complete these 4 steps to escape the Maze:
 -Killer which hunts down the Player (Animation Event with Trigger)   
 -Hidden Key to unlock the Powerbox   
 -Powerbox to open the Gate
--SFX (4):   
-  .Killer Noise
-  .Key Collect
-  .Door Unlock
-  .Gate Open
+-SFX (4): Killer Noise, Key Collect, Door Unlock, Gate Open
 
 ### /Optional   
 -Killer which hunts down the Player (AI Killer with Navmesh)   
@@ -28,9 +24,9 @@ You must complete these 4 steps to escape the Maze:
 -Start & Ending Screen
 
 ### /Project-Phases
-Alpha Phase – Gameplay Setup          /until 25.11.21
-Beta 1 Phase – Killer Implementation  /until 16.12.21
-Beta 2 Phase – SFX & Optionals        /until 13.01.22
+-Alpha Phase – Gameplay Setup          /until 25.11.21
+-Beta 1 Phase – Killer Implementation  /until 16.12.21
+-Beta 2 Phase – SFX & Optionals        /until 13.01.22
 
 ### /Developement Issues
 -SnowFX doesn't render when out of current frame -> gpu bound
