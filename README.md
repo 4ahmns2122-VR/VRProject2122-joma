@@ -24,12 +24,12 @@ You must complete these 4 steps to escape the Maze:
 -Start & Ending Screen
 
 ### /Project-Phases
-/until 25.11.21
--Gameplay Setup 
-/until 16.12.21
--Killer Implementation 
-/until 13.01.22
--SFX & Optionals
+-until 25.11.21
+Gameplay Setup 
+-until 16.12.21
+Killer Implementation 
+-until 13.01.22
+SFX & Optionals
 
 ### /Developement Issues
 -SnowFX doesn't render when out of current frame -> gpu bound
