@@ -26,7 +26,7 @@ public class Box : MonoBehaviour
         }
     }
 
-    void OpenGate()
+    public void OpenGate()
     {
         onSwitched();
     }

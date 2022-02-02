@@ -51,7 +51,6 @@ public class Killer : MonoBehaviour {
     {
         agent.isStopped = true;
         deathScreen.SetActive(true);
-        //disable player teleportation
     }
     Vector3 RandomDestination()
     {
