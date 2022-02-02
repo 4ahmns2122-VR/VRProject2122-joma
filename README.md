@@ -1,5 +1,9 @@
 # VRProject2122-joma
 
+![test1](https://user-images.githubusercontent.com/73108961/152233064-b6b54b0f-52f7-449d-97c7-e1ac6884931a.PNG)
+![test2](https://user-images.githubusercontent.com/73108961/152233137-aef7eaf4-c739-489c-ba54-d716f3bcca81.PNG)
+![test3](https://user-images.githubusercontent.com/73108961/152233193-a6488574-af90-429b-87c7-dc633bd2f838.PNG)
+
 ### /Project-description
 A Ghost who can only hear but not see is hunting you.
 Escape the Maze without getting killed.
@@ -24,12 +28,9 @@ You must complete these 4 steps to escape the Maze:
 -Start & Ending Screen
 
 ### /Project Phases
--until 25.11.21   
-Gameplay Setup    
--until 16.12.21   
-Killer Implementation    
--until 13.01.22   
-SFX & Optionals   
+-until 25.11.21: Gameplay Setup       
+-until 16.12.21: Killer Implementation   
+-until 13.01.22: SFX & Optionals   
 
 ### /Developement Issues
 -SnowFX doesn't render when out of current frame -> gpu bound
