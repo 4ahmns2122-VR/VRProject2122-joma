@@ -17,6 +17,7 @@ You must complete these 4 steps to escape the Maze:
 
 !The maze had to be extended for the ghost system to work properly.
 Here is a guide through the updated maze:
+
 ![test4](https://user-images.githubusercontent.com/73108961/152409212-eb34d892-0af1-4dd6-90e8-d338de9001d8.PNG)
 
 ### /MVP
