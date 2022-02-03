@@ -1,3 +1,4 @@
+
 # VRProject2122-joma
 
 ![test1](https://user-images.githubusercontent.com/73108961/152233064-b6b54b0f-52f7-449d-97c7-e1ac6884931a.PNG)
@@ -13,6 +14,10 @@ You must complete these 4 steps to escape the Maze:
 2. Find and unlock the Powerbox
 3. Restore the Power by colliding the Key with the Powerbutton
 4. Escape through the unlocked Gate without getting killed by the Ghost
+
+!The maze had to be extended for the ghost system to work properly.
+Here is a guide through the updated maze:
+![test4](https://user-images.githubusercontent.com/73108961/152409212-eb34d892-0af1-4dd6-90e8-d338de9001d8.PNG)
 
 ### /MVP
 -Killer which hunts down the Player (Animation Event with Trigger)   
@@ -32,7 +37,8 @@ You must complete these 4 steps to escape the Maze:
 -until 13.01.22: SFX & Optionals   
 
 ### /Developement Issues
--SnowFX doesn't render when out of current frame -> gpu bound
+-SnowFX makes the Game crash (disable in Editor)
+-Builds folder can't be pushed even if gitignore is modified appropriately
 
 ### /Development-platforms: 
 Windows 10, Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
